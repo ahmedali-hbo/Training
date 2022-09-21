@@ -1,14 +1,24 @@
-var Calculator = /** @class */ (function () {
-    function Calculator(x:any, y:any) {
-        this.x = x;
-        this.y = y;
+class Calculator {
+    x: number;
+    y: number;
+    result:any;
+    results:any;
+     constructor(x: number, y: number) {
+         this.x = x;
+         this.y = y;
+     }
+     add() {
+         this.results = this.x + this.y;
+     }
+     multiply(){
+         this.result = this.x * this.y;
+     }
+     getResult() {
+         return this.result;
+     }
+     getResults() {
+        return this.results;
     }
-    Calculator.prototype.add = function () {
-        this.result = this.x + this.y;
-    };
-    Calculator.prototype.getResult = function () {
-        return this.result;
-    };
-    return Calculator;
-}());
-module.exports = Calculator;
+ }
+ module.exports = Calculator; 
+ export{};
