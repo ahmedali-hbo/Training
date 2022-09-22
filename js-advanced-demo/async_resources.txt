@@ -1,0 +1,46 @@
+==============================
+GETTING STARTED
+==============================
+Are the concepts of arrow functions, async, await and promises new to you? That's okay! Here are some videos and 
+resources to get you started...
+
+A basic introduction into the concept of async: https://www.youtube.com/watch?v=ZcQyJ-gxke0 
+
+==============================
+FURTHER READING AND TUTORIALS
+==============================
+[ARROW FUNCTIONS]
+We use arrow functions a lot in our automation repository.
+Mozilla intro: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Functions/Arrow_functions
+
+W3schools article where you can practice this: https://www.w3schools.com/js/js_arrow_function.asp
+  
+[PROMISES]
+Since async functions are essentially a promise in a nice wrapper, understanding the general idea of promises 
+is still very important.
+
+Mozilla intro: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Using_promises
+
+Here is a walkthrough on the distinction between promises and async/await: 
+https://www.geeksforgeeks.org/difference-between-promise-and-async-await-in-node-js/
+
+And some other general information on promises...
+W3schools intro: https://www.w3schools.com/js/js_promise.asp
+More Mozilla documentation: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise
+
+Asynchronous JavaScript tutorial on promises: https://www.youtube.com/watch?v=slIJj-zbs_M 
+
+GeeksForGeeks walkthrough: https://www.geeksforgeeks.org/javascript-promises/
+(This walkthrough explains the different states of promises, which may be useful to anyone new to promises and async)
+
+[ASYNC]
+W3schools intro to async/await: https://www.w3schools.com/js/js_async.asp
+
+Mozilla tutorial: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Statements/async_function 
+
+Asynchronous JavaScript tutorial on Async and Await: 
+(There is a sponsored content segment, so if you want to skip that, start at about 1:30)
+https://www.youtube.com/watch?v=2MJnTmoAdwI&list=PLRD1Niz0lz1sdjsiBsYN6nT1aJQTWvF-a&index=5
+
+[AWAIT]
+Mozilla documentation and intro: https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/await
