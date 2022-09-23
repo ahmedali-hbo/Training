@@ -4,6 +4,7 @@
     "chromedriver": "^105.0.0",
     "cucumber": "^6.0.7",
     "io": "^1.0.5",
+    "selenium-webdriver": "^4.4.0",
     "webdriver": "^7.24.0",
     "webdriverio": "^7.24.0"
   },
