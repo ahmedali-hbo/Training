@@ -9,29 +9,14 @@ async function func() {
      await driver.get('https://www.hbomax.com/');
      await driver.findElement(webdriver.By.xpath("//a[@id='promo-banner-btn']")).click();
      await driver.findElement(webdriver.By.xpath("//div[@id='exp-2688-avod-mo']")).click();
+     await driver.findElement(webdriver.By.xpath("//*[@id='firstName']")).sendKeys("James");
+     await driver.findElement(webdriver.By.xpath("//*[@id='lastName']")).sendKeys("William");
+     await driver.findElement(webdriver.By.xpath("//*[@id='email']")).sendKeys("JamesW@hbo.com");
+     await driver.findElement(webdriver.By.xpath("//*[@id='password']")).sendKeys("James@1234");
+     await driver.findElement(webdriver.By.xpath("//*[@id='createAccount']")).click();
 }
 
 func();
-console.log(func());
-// let chrome = new webdriver.Builder().forBrowser("chrome").build();
-// chrome.get('https://www.hbomax.com/');
-
-// function firstClick(){
-//     let PromoBtn = chrome.findElement(webdriver.By.id('promo-banner-btn'));
-//     PromoBtn.click();
-// }
-// function secondClick(){
-//     let PlanBtn = chrome.findElement(webdriver.By.id('exp-2688-avod-mo'));
-//     PlanBtn.click();
-// }
-
-// firstClick();
-// secondClick();
-//chrome.findElement(webdriver.By.xpath("//a[@id='promo-banner-btn']")).click();
-//chrome.findElement(webdriver.By.xpath("//a[@id='page23957-band410128-Button410142']")).click();
-//*[@id="exp-2688-avod-mo"]
-//*[@id="exp-2688-avod-mo"]
-//*[@id="exp-2688-avod-mo"]/div
 // General steps - 1. Create a WebDriver instance
 // 2. Navigate to a web page
 // 3. Locate  element on the web page
